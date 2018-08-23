@@ -1,2 +1,2 @@
-# homework_2
-Bootstrap and Responsiveness Homework 2
+# Bootstrap-Portfolio
+Bootstrap Homework 2
