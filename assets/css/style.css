@@ -1,6 +1,7 @@
 .navbar {
     border-bottom: 3px solid #cccccc;
     background: #fff;
+    padding: 0;
 }
 
 .top {
@@ -13,10 +14,8 @@
     padding: 0 20 0 20;
 }
 #logo {
-    float: left;
     margin-left: 20px;
     width: 250px;
-    height: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 700;
@@ -49,7 +48,7 @@ h1 {
     padding-bottom: 30px;
 }
 h3 {
-    margin: 0 !important;
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     color: #fff;
@@ -59,7 +58,7 @@ h3 {
     position: relative;
     top: 75%;
     line-height: 50px;
-    width: 100% !important;
+    width: 100%;
     text-align: center;
 
 }
