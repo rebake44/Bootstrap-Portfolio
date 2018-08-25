@@ -23,8 +23,18 @@
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
+    animation-name: animationcolor;
+    animation-duration: 5s;
   }
+
+@keyframes animationcolor {
+    0%   {background-color: #eede4c;}
+    15%  {background-color: #ee4e9e;}
+    30% {background-color:  #4b0ecc;}
+    50%  {background-color: #0e60cc;}
+    100% {background-color: #5be60b;}
+}
 
 .child {
     border-left: 1px solid #cccccc;
