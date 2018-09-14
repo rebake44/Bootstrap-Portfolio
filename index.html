@@ -1,39 +1,86 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
-    <!-- latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <!-- Latest Bootstrap and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!-- internal stylesheet/css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-border border-bottom border-secondary navbar-expand-lg navbar-light mb-md-5">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="bg">
+    <nav class="navbar navbar-expand-lg navbar-light mb-5">
+      <a href="index.html" class="navbar-left" id="logo">Rebecca Baker</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item child">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item child">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
     </nav>
- 
 
+
+    <!-- Start of container -->
+
+    <div id="main-container" class= "container">
+      <section class="main-section">
+          <h1>About Me</h1>
+
+          <img src="assets/images/profile_pic.jpg "
+          class="auth-image" alt="Rebecca Baker">
+
+          <p>Hi, my name is Rebecca Baker. I am married and have a 16-yr-old son, a 13-yr-old daughter, and two stepsons
+          who are 17 and 13. I live in Dallas, Texas. I have a dog named Tito and a cat named Penny. I'm a former
+          arbitrage analyst, recruiter, marketing rep, real estate agent, and a soon-to-be Full Stack Web Developer.
+          I am looking forward to finally doing the job I've always wanted!</p>
+          
+          <p>Hi, my name is Rebecca Baker. I am married and have a 16-yr-old son, a 13-yr-old daughter, and two stepsons
+          who are 17 and 13. I live in Dallas, Texas. I have a dog named Tito and a cat named Penny. I'm a former
+          arbitrage analyst, recruiter, marketing rep, real estate agent, and a soon-to-be Full Stack Web Developer.
+          I am looking forward to finally doing the job I've always wanted!</p>
+
+      </section>
+  </div>
+
+
+    <!-- Start of footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright Rebecca Baker
+      </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

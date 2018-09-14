@@ -36,7 +36,7 @@
     100% {background-color: #5be60b;}
 }
 
-.child {
+.nav-link {
     border-left: 1px solid #cccccc;
 }
 
@@ -56,6 +56,7 @@ h1 {
     border: 1px solid #cccccc;
     margin-bottom: 40px;
     padding-bottom: 30px;
+
 }
 h3 {
     margin: 0;
