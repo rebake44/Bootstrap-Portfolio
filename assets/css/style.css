@@ -48,11 +48,17 @@ h1 {
     font-size: 30px;
     padding: 10px;
 }
+.auth-image {
+    float: left;
+    max-width: 200px;
+    padding: 0 10px 0 10px;
+}
 .container {
     background: #fff;
     border: 1px solid #cccccc;
     margin-bottom: 40px;
     padding-bottom: 30px;
+    min-height: 400px;
 
 }
 h3 {
@@ -87,7 +93,4 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
     margin: 0 auto;
-}
-.img-fluid {
-    padding-right: 10px;
 }
